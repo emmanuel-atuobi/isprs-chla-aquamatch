@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+results/
+
+# Locally-obtained/generated inputs -- not redistributed, see data/README.md
+source_data/
+lake_erie_images/
+data/raw/
+data/model_comparison_6models_final/
+data/spatial_validation_diagnostics/
+
+# Environments / secrets
+.env
+.venv/
+venv/

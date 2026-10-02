@@ -1,0 +1,30 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+
+# Pinned to the version the frozen model in model/ was trained with. See README.md "Model".
+xgboost==3.4.1
+
+# Figures / interpretation
+matplotlib>=3.7
+shap>=0.44
+
+# Model persistence used during six-model training/comparison (not for loading the frozen
+# model itself, which uses XGBoost's native format -- see model/)
+joblib>=1.3
+
+# Reading the siteSR .feather source files (preprocessing/join_aquamatch_sitesr.py) only
+pyarrow>=14.0
+
+# model_development/fit_6models_one_final.py --model realmlp only
+torch>=2.0
+pytabkit>=1.0
+cloudpickle>=3.0
+
+# Per-pixel Lake Erie scene application (validation/lake_erie_seasonal_application.py) only
+rasterio>=1.3
+pyproj>=3.5
+
+packaging>=23.0
