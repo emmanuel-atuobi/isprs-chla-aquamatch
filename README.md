@@ -1,11 +1,11 @@
 # isprs-chla-aquamatch
 
-Code and the final trained model associated with the manuscript "Enhancing Large-Scale
+Code and the final trained model associated with the publication "Enhancing Large-Scale
 Chlorophyll-a Estimation Across U.S. Lakes through Spectral and Spatio-Temporal Feature
-Integration: A Machine Learning Approach Using AquaMatch" (PHOTO-D-26-00534), submitted to
-the ISPRS Journal of Photogrammetry and Remote Sensing.
+Integration: A Machine Learning Approach Using AquaMatch", published in the ISPRS Journal
+of Photogrammetry and Remote Sensing. https://doi.org/10.1016/j.isprsjprs.2026.10.013
 
-The manuscript estimates lake chlorophyll-a from Landsat surface reflectance augmented with
+The publication estimates lake chlorophyll-a from Landsat surface reflectance augmented with
 spatial and temporal context, using AquaMatch + siteSR (Collection 2) in-situ/satellite
 matchups. Six candidate models were compared, with XGBoost selected as the best model.
 Feature-group ablation and SHAP analysis show that adding this geographic and seasonal
@@ -13,7 +13,7 @@ context to the spectral predictors improves prediction accuracy.
 
 This is a curated release containing the central analysis scripts supporting the paper's
 reported results, rather than every script written during the project. The final
-22-predictor set used by the frozen model is documented in the manuscript and embedded in
+22-predictor set used by the frozen model is documented in the publication and embedded in
 the model file; exploratory feature-selection scripts are not included in this release.
 
 ## Setup
